@@ -1,1 +1,1 @@
-web: gunicorn jasil --log-file -
+web: gunicorn jasil.wsgi --log-file -
